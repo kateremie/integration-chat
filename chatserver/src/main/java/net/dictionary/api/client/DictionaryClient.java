@@ -49,7 +49,7 @@ public class DictionaryClient {
         return result;
     }
 
-    private class DictionarySchema {
+    public class DictionarySchema {
         private final static String KEY = "key";
         private final static String TEXT = "text";
         private final static String LANG = "lang";
